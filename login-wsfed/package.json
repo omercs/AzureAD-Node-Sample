@@ -1,0 +1,45 @@
+{
+  "name": "AzureAD-WSFED-AD_Graph-Sample",
+  "version": "0.0.1",
+  "licenses": [
+    {
+      "type": "Apache 2.0",
+      "url": "https://github.com/MSOpenTech/aal/raw/master/License.txt"
+    }
+  ],
+  "keywords": [
+    "saml",
+    "samlp",
+    "wsfed",
+    "azure active directory",
+    "aad",
+    "adfs",
+    "sso",
+    "shibboleth"
+  ],
+  "description": "WSFED authentication strategies Sample Application",
+  "author": {
+    "name": "Microsoft Open Technologies Inc",
+    "email": "msopentech@microsoft.com",
+    "url": "http://msopentech.com/"
+  },
+  "dependencies": {
+    "passport": "0.1.x",
+    "passport-azure-ad": "0.0.x",
+    "node-waad": "~1.1.1",
+    "express": "3.1.0",
+    "ejs": "*",
+    "ejs-locals": "~1.0.2"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.1.1",
+    "grunt-contrib-watch": "~0.2.0",
+    "grunt": "~0.4.1"
+  },
+  "scripts": {
+    "test": "grunt"
+  },
+  "engines": {
+    "node": ">= 0.8.0"
+  }
+}

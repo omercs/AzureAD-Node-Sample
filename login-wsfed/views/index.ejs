@@ -1,0 +1,8 @@
+<% layout('layout') -%>
+<% if (!user) { %>
+<h2>Welcome! Please log in.</h2>
+<% } else { %>
+<h2>Hello, <%= user.givenName %>.</h2>
+<h4>Graph API Users List</h4>
+<%= data %>
+<% } %>
